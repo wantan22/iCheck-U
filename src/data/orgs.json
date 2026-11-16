@@ -1,0 +1,239 @@
+[
+  {
+    "id": "o1",
+    "name": "Skuad Bantuan Bencana Harmoni (SBBH)",
+    "type": "ngo",
+    "regNo": "PPM-012-10-22082019",
+    "coverage": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "contactPerson": "Roslan Jaafar",
+    "phone": "012-300 9911",
+    "email": "ops@sbbh.example.my",
+    "status": "approved",
+    "capabilities": {
+      "boats": 3,
+      "vehicles4x4": 2,
+      "ambulances": 1,
+      "medics": 4,
+      "pumps": 2,
+      "chainsaws": 2,
+      "shelterCapacity": 0
+    },
+    "teamSize": 14,
+    "teamsCount": 3,
+    "hours": "24/7 during events",
+    "documents": [
+      "ROS registration.pdf",
+      "Insurance cover note.pdf"
+    ],
+    "certificates": [
+      {
+        "type": "orgReg",
+        "number": "PPM-012-10-22082019",
+        "issuer": "Registrar of Societies (ROS)",
+        "holder": "SBBH",
+        "expiry": "",
+        "file": "ROS registration.pdf",
+        "verified": true
+      },
+      {
+        "type": "waterRescue",
+        "number": "SWR-2025-0441",
+        "issuer": "Rescue training provider (demo)",
+        "holder": "Roslan Jaafar",
+        "expiry": "2027-03-31",
+        "file": "Swiftwater rescue - Roslan.pdf",
+        "verified": true
+      },
+      {
+        "type": "boat",
+        "number": "BL-77812",
+        "issuer": "Marine licensing office (demo)",
+        "holder": "Azlan",
+        "expiry": "2027-08-15",
+        "file": "Boat licence - Azlan.jpg",
+        "verified": true
+      },
+      {
+        "type": "firstAid",
+        "number": "FA-55120",
+        "issuer": "First aid trainer (demo)",
+        "holder": "Dr. Farah",
+        "expiry": "2026-12-31",
+        "file": "First aid CPR - Farah.pdf",
+        "verified": true
+      }
+    ],
+    "teams": [
+      {
+        "id": "t1",
+        "name": "Boat Team Alpha",
+        "capability": [
+          "boat",
+          "rescue"
+        ],
+        "members": [
+          "Roslan",
+          "Azlan",
+          "Kumar",
+          "Wei Jie"
+        ],
+        "lat": 3.0372,
+        "lng": 101.5388,
+        "available": true,
+        "checkedIn": false,
+        "checkedInAt": null,
+        "capacity": 8
+      },
+      {
+        "id": "t2",
+        "name": "Medic Team Bravo",
+        "capability": [
+          "medical",
+          "ambulance"
+        ],
+        "members": [
+          "Dr. Farah",
+          "Hisham (MA)",
+          "Nurse Joanne"
+        ],
+        "lat": 3.0362,
+        "lng": 101.544,
+        "available": true,
+        "checkedIn": false,
+        "checkedInAt": null,
+        "capacity": 2
+      },
+      {
+        "id": "t3",
+        "name": "4x4 Team Charlie",
+        "capability": [
+          "vehicle",
+          "lifting"
+        ],
+        "members": [
+          "Shah",
+          "Ah Meng",
+          "Suresh",
+          "Izzat"
+        ],
+        "lat": 3.0345,
+        "lng": 101.53,
+        "available": true,
+        "checkedIn": false,
+        "checkedInAt": null,
+        "capacity": 6
+      }
+    ]
+  },
+  {
+    "id": "o2",
+    "name": "Pertubuhan Sukarelawan Kasih Malaysia",
+    "type": "medical",
+    "regNo": "PPM-019-14-03112021",
+    "coverage": [
+      "B",
+      "C"
+    ],
+    "contactPerson": "Dr. Thinesh Kumar",
+    "phone": "016-770 3321",
+    "email": "admin@kasih.example.my",
+    "status": "pending",
+    "capabilities": {
+      "boats": 0,
+      "vehicles4x4": 1,
+      "ambulances": 1,
+      "medics": 6,
+      "pumps": 0,
+      "chainsaws": 0,
+      "shelterCapacity": 0
+    },
+    "teamSize": 9,
+    "teamsCount": 1,
+    "hours": "8 am – 10 pm",
+    "documents": [
+      "ROS certificate.pdf"
+    ],
+    "certificates": [
+      {
+        "type": "orgReg",
+        "number": "PPM-019-14-03112021",
+        "issuer": "Registrar of Societies (ROS)",
+        "holder": "Pertubuhan Sukarelawan Kasih",
+        "expiry": "",
+        "file": "ROS certificate.pdf",
+        "verified": false
+      },
+      {
+        "type": "medical",
+        "number": "MMC-81234",
+        "issuer": "Medical council (demo)",
+        "holder": "Dr. Thinesh Kumar",
+        "expiry": "2027-01-31",
+        "file": "Practising certificate - Thinesh.pdf",
+        "verified": false
+      },
+      {
+        "type": "firstAid",
+        "number": "FA-30987",
+        "issuer": "First aid trainer (demo)",
+        "holder": "Nurse Aqilah",
+        "expiry": "2026-06-30",
+        "file": "CPR - Aqilah.pdf",
+        "verified": false
+      }
+    ],
+    "teams": [
+      {
+        "id": "t4",
+        "name": "Kasih Medical 1",
+        "capability": [
+          "medical"
+        ],
+        "members": [
+          "Dr. Thinesh",
+          "Nurse Aqilah"
+        ],
+        "lat": 3.033,
+        "lng": 101.542,
+        "available": true,
+        "checkedIn": false,
+        "checkedInAt": null,
+        "capacity": 2
+      }
+    ]
+  },
+  {
+    "id": "o3",
+    "name": "Kumpulan Bot Rakyat Klang",
+    "type": "community",
+    "regNo": "—",
+    "coverage": [
+      "A"
+    ],
+    "contactPerson": "Encik Badrul",
+    "phone": "011-9988 7766",
+    "email": "botrakyat@example.my",
+    "status": "rejected",
+    "rejectReason": "Registration number missing; no insurance document.",
+    "capabilities": {
+      "boats": 2,
+      "vehicles4x4": 0,
+      "ambulances": 0,
+      "medics": 0,
+      "pumps": 0,
+      "chainsaws": 0,
+      "shelterCapacity": 0
+    },
+    "teamSize": 5,
+    "teamsCount": 1,
+    "hours": "Weekends",
+    "documents": [],
+    "certificates": [],
+    "teams": []
+  }
+]

@@ -1,0 +1,53 @@
+[
+  {
+    "id": "r1",
+    "name": "Jalan Sungai Harmoni (river road)",
+    "reason": "Flooded — waist deep",
+    "path": [
+      [
+        3.0238,
+        101.535
+      ],
+      [
+        3.0305,
+        101.535
+      ]
+    ],
+    "reportedBy": "Fire & rescue (demo)",
+    "active": true
+  },
+  {
+    "id": "r2",
+    "name": "Persiaran Harmoni (west junction)",
+    "reason": "Flooded — knee deep",
+    "path": [
+      [
+        3.024,
+        101.5285
+      ],
+      [
+        3.0328,
+        101.5285
+      ]
+    ],
+    "reportedBy": "Resident report",
+    "active": true
+  },
+  {
+    "id": "r3",
+    "name": "Jalan Niaga Harmoni (east link)",
+    "reason": "Fallen tree",
+    "path": [
+      [
+        3.03,
+        101.5432
+      ],
+      [
+        3.0345,
+        101.5432
+      ]
+    ],
+    "reportedBy": "Business report",
+    "active": false
+  }
+]

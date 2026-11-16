@@ -1,0 +1,15 @@
+{
+  "name": "iCheck-U — No one left unchecked",
+  "short_name": "iCheck-U",
+  "description": "Neighbourhood disaster safety check-in. No one left unchecked. Works without internet.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#B71C1C",
+  "theme_color": "#B71C1C",
+  "lang": "en",
+  "icons": [
+    { "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" },
+    { "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "maskable" }
+  ]
+}

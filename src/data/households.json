@@ -1,0 +1,2719 @@
+[
+  {
+    "id": "h01",
+    "name": "Keluarga Faizal",
+    "address": "8, Jalan Harmoni 2, Taman Seri Harmoni, 40460 Shah Alam, Selangor",
+    "shortAddress": "8 Jalan Harmoni 2",
+    "street": "Jalan Harmoni 2",
+    "zone": "A",
+    "lat": 3.02685,
+    "lng": 101.5362,
+    "phone": "012-338 4471",
+    "members": [
+      {
+        "id": "m001",
+        "name": "Faizal bin Hassan",
+        "age": 38,
+        "relationship": "Father",
+        "phone": "012-338 4471",
+        "photo": "",
+        "needs": [],
+        "status": "pending",
+        "clothing": "",
+        "medical": {
+          "bloodType": "B+",
+          "allergies": "None known",
+          "medications": "None",
+          "conditions": "None"
+        }
+      },
+      {
+        "id": "m002",
+        "name": "Nurul Huda binti Osman",
+        "age": 35,
+        "relationship": "Mother",
+        "phone": "013-702 1189",
+        "photo": "",
+        "needs": [
+          "pregnant"
+        ],
+        "status": "pending",
+        "clothing": "",
+        "medical": {
+          "bloodType": "O+",
+          "allergies": "None known",
+          "medications": "None",
+          "conditions": "7 months pregnant"
+        }
+      },
+      {
+        "id": "m003",
+        "name": "Aisyah Faizal",
+        "age": 9,
+        "relationship": "Daughter",
+        "phone": "",
+        "photo": "",
+        "needs": [
+          "child"
+        ],
+        "status": "pending",
+        "clothing": "Pink baju kurung, white sneakers",
+        "medical": {
+          "bloodType": "AB+",
+          "allergies": "None known",
+          "medications": "None",
+          "conditions": "None"
+        }
+      },
+      {
+        "id": "m004",
+        "name": "Adam Faizal",
+        "age": 6,
+        "relationship": "Son",
+        "phone": "",
+        "photo": "",
+        "needs": [
+          "child"
+        ],
+        "status": "pending",
+        "clothing": "Red football T-shirt, blue shorts, yellow sandals",
+        "medical": {
+          "bloodType": "O-",
+          "allergies": "Peanuts",
+          "medications": "None",
+          "conditions": "None"
+        }
+      }
+    ],
+    "pets": [
+      "Oyen (cat)"
+    ],
+    "contacts": [
+      {
+        "name": "Tan Wei Ming (block coordinator)",
+        "phone": "016-221 9087"
+      }
+    ],
+    "outOfArea": {
+      "name": "Relative in Ipoh",
+      "phone": "05-254 8890"
+    },
+    "isCoordinator": false,
+    "script": null,
+    "checklist": [
+      {
+        "id": "c001",
+        "name": "MyKad (IC) — Faizal & Nurul",
+        "category": "documents",
+        "location": "Master bedroom, wardrobe top drawer, blue zip folder",
+        "ownerId": "m001",
+        "priority": "first",
+        "format": "both",
+        "verifiedAt": "2026-09-02",
+        "recovery": null,
+        "photo": ""
+      },
+      {
+        "id": "c002",
+        "name": "Children's birth certificates",
+        "category": "documents",
+        "location": "Same blue zip folder, back pocket",
+        "ownerId": "m001",
+        "priority": "first",
+        "format": "both",
+        "verifiedAt": "2026-09-02",
+        "recovery": null,
+        "photo": ""
+      },
+      {
+        "id": "c003",
+        "name": "Passports (4)",
+        "category": "documents",
+        "location": "Master bedroom, wardrobe top drawer, blue zip folder",
+        "ownerId": "m001",
+        "priority": "time",
+        "format": "physical",
+        "verifiedAt": "2026-09-02",
+        "recovery": null,
+        "photo": ""
+      },
+      {
+        "id": "c004",
+        "name": "Takaful & home insurance policy",
+        "category": "documents",
+        "location": "Study room, white filing cabinet, drawer 2",
+        "ownerId": "m001",
+        "priority": "time",
+        "format": "digital",
+        "verifiedAt": "2026-03-10",
+        "recovery": null,
+        "photo": ""
+      },
+      {
+        "id": "c005",
+        "name": "Geran rumah (land title)",
+        "category": "documents",
+        "location": "Study room, white filing cabinet, drawer 1, brown envelope",
+        "ownerId": "m001",
+        "priority": "time",
+        "format": "both",
+        "verifiedAt": "2026-03-10",
+        "recovery": null,
+        "photo": ""
+      },
+      {
+        "id": "c006",
+        "name": "Nurul's antenatal card (buku pink)",
+        "category": "medical",
+        "location": "Kitchen, top of fridge, clear pouch",
+        "ownerId": "m002",
+        "priority": "first",
+        "format": "physical",
+        "verifiedAt": "2026-10-28",
+        "recovery": null,
+        "photo": ""
+      },
+      {
+        "id": "c007",
+        "name": "Adam's EpiPen (peanut allergy)",
+        "category": "medical",
+        "location": "Kitchen, first-aid box above sink",
+        "ownerId": "m004",
+        "priority": "first",
+        "format": "physical",
+        "verifiedAt": "2026-10-28",
+        "recovery": null,
+        "photo": ""
+      },
+      {
+        "id": "c008",
+        "name": "Phones & power bank",
+        "category": "devices",
+        "location": "Living room charging shelf beside TV",
+        "ownerId": "m001",
+        "priority": "first",
+        "format": "physical",
+        "verifiedAt": "2026-11-01",
+        "recovery": null,
+        "photo": ""
+      },
+      {
+        "id": "c009",
+        "name": "Emergency bag (torch, water, first aid)",
+        "category": "kit",
+        "location": "Behind main door, red backpack",
+        "ownerId": null,
+        "priority": "first",
+        "format": "physical",
+        "verifiedAt": "2026-11-01",
+        "recovery": null,
+        "photo": ""
+      },
+      {
+        "id": "c010",
+        "name": "Cash (small notes) & ATM cards",
+        "category": "money",
+        "location": "Master bedroom, bedside table drawer",
+        "ownerId": "m001",
+        "priority": "first",
+        "format": "physical",
+        "verifiedAt": "2026-09-02",
+        "recovery": null,
+        "photo": ""
+      },
+      {
+        "id": "c011",
+        "name": "Aisyah's school records",
+        "category": "documents",
+        "location": "Aisyah's room, desk shelf, green file",
+        "ownerId": "m003",
+        "priority": "leave",
+        "format": "digital",
+        "verifiedAt": "2026-02-14",
+        "recovery": null,
+        "photo": ""
+      },
+      {
+        "id": "c012",
+        "name": "Oyen's cat food & carrier",
+        "category": "family",
+        "location": "Store room, bottom shelf",
+        "ownerId": null,
+        "priority": "time",
+        "format": "physical",
+        "verifiedAt": "2026-10-01",
+        "recovery": null,
+        "photo": ""
+      }
+    ]
+  },
+  {
+    "id": "h02",
+    "name": "Keluarga Tan",
+    "address": "10, Jalan Harmoni 2, Taman Seri Harmoni, 40460 Shah Alam, Selangor",
+    "shortAddress": "10 Jalan Harmoni 2",
+    "street": "Jalan Harmoni 2",
+    "zone": "A",
+    "lat": 3.02685,
+    "lng": 101.53744,
+    "phone": "016-221 9087",
+    "members": [
+      {
+        "id": "m005",
+        "name": "Tan Wei Ming",
+        "age": 52,
+        "relationship": "Father",
+        "phone": "016-221 9087",
+        "photo": "",
+        "needs": [],
+        "status": "pending",
+        "clothing": "",
+        "medical": {
+          "bloodType": "A-",
+          "allergies": "None known",
+          "medications": "None",
+          "conditions": "None"
+        }
+      },
+      {
+        "id": "m006",
+        "name": "Lee Mei Ling",
+        "age": 49,
+        "relationship": "Mother",
+        "phone": "",
+        "photo": "",
+        "needs": [],
+        "status": "pending",
+        "clothing": "",
+        "medical": {
+          "bloodType": "B-",
+          "allergies": "None known",
+          "medications": "None",
+          "conditions": "None"
+        }
+      },
+      {
+        "id": "m007",
+        "name": "Tan Jun Hao",
+        "age": 17,
+        "relationship": "Son",
+        "phone": "",
+        "photo": "",
+        "needs": [],
+        "status": "pending",
+        "clothing": "",
+        "medical": {
+          "bloodType": "A+",
+          "allergies": "None known",
+          "medications": "None",
+          "conditions": "None"
+        }
+      }
+    ],
+    "pets": [],
+    "contacts": [
+      {
+        "name": "Faizal (neighbour)",
+        "phone": "012-338 4471"
+      }
+    ],
+    "outOfArea": {
+      "name": "Relative in Ipoh",
+      "phone": "05-254 8890"
+    },
+    "isCoordinator": true,
+    "script": {
+      "status": "safe",
+      "delay": 4
+    },
+    "checklist": [
+      {
+        "id": "c013",
+        "name": "MyKad (IC) — all 3",
+        "category": "documents",
+        "location": "Living room cabinet, left door, red folder",
+        "ownerId": "m005",
+        "priority": "first",
+        "format": "both",
+        "verifiedAt": "2026-07-12",
+        "recovery": null,
+        "photo": ""
+      },
+      {
+        "id": "c014",
+        "name": "Car grant & insurance",
+        "category": "documents",
+        "location": "Living room cabinet, red folder",
+        "ownerId": "m005",
+        "priority": "time",
+        "format": "both",
+        "verifiedAt": "2026-07-12",
+        "recovery": null,
+        "photo": ""
+      },
+      {
+        "id": "c015",
+        "name": "Mei Ling's spectacles (spare)",
+        "category": "medical",
+        "location": "Bedside table, glasses case",
+        "ownerId": "m006",
+        "priority": "first",
+        "format": "physical",
+        "verifiedAt": "2026-07-12",
+        "recovery": null,
+        "photo": ""
+      },
+      {
+        "id": "c016",
+        "name": "Torch & radio",
+        "category": "kit",
+        "location": "Kitchen, drawer under the stove",
+        "ownerId": null,
+        "priority": "first",
+        "format": "physical",
+        "verifiedAt": "2026-10-01",
+        "recovery": null,
+        "photo": ""
+      }
+    ]
+  },
+  {
+    "id": "h03",
+    "name": "Keluarga Rajendran",
+    "address": "12, Jalan Harmoni 2, Taman Seri Harmoni, 40460 Shah Alam, Selangor",
+    "shortAddress": "12 Jalan Harmoni 2",
+    "street": "Jalan Harmoni 2",
+    "zone": "A",
+    "lat": 3.02685,
+    "lng": 101.53868,
+    "phone": "019-554 1203",
+    "members": [
+      {
+        "id": "m008",
+        "name": "Rajendran a/l Muniandy",
+        "age": 45,
+        "relationship": "Father",
+        "phone": "",
+        "photo": "",
+        "needs": [],
+        "status": "pending",
+        "clothing": "",
+        "medical": {
+          "bloodType": "B+",
+          "allergies": "None known",
+          "medications": "None",
+          "conditions": "None"
+        }
+      },
+      {
+        "id": "m009",
+        "name": "Kavitha a/p Selvam",
+        "age": 41,
+        "relationship": "Mother",
+        "phone": "",
+        "photo": "",
+        "needs": [],
+        "status": "pending",
+        "clothing": "",
+        "medical": {
+          "bloodType": "O+",
+          "allergies": "None known",
+          "medications": "None",
+          "conditions": "None"
+        }
+      },
+      {
+        "id": "m010",
+        "name": "Priya Rajendran",
+        "age": 14,
+        "relationship": "Daughter",
+        "phone": "",
+        "photo": "",
+        "needs": [],
+        "status": "pending",
+        "clothing": "",
+        "medical": {
+          "bloodType": "AB+",
+          "allergies": "None known",
+          "medications": "None",
+          "conditions": "None"
+        }
+      },
+      {
+        "id": "m011",
+        "name": "Arjun Rajendran",
+        "age": 3,
+        "relationship": "Son",
+        "phone": "",
+        "photo": "",
+        "needs": [
+          "child"
+        ],
+        "status": "pending",
+        "clothing": "",
+        "medical": {
+          "bloodType": "O-",
+          "allergies": "None known",
+          "medications": "None",
+          "conditions": "None"
+        }
+      }
+    ],
+    "pets": [],
+    "contacts": [
+      {
+        "name": "Tan Wei Ming (block coordinator)",
+        "phone": "016-221 9087"
+      }
+    ],
+    "outOfArea": {
+      "name": "Relative in Ipoh",
+      "phone": "05-254 8890"
+    },
+    "isCoordinator": false,
+    "script": {
+      "status": "safe",
+      "delay": 6
+    },
+    "checklist": []
+  },
+  {
+    "id": "h04",
+    "name": "Keluarga Siti Aminah",
+    "address": "14, Jalan Harmoni 2, Taman Seri Harmoni, 40460 Shah Alam, Selangor",
+    "shortAddress": "14 Jalan Harmoni 2",
+    "street": "Jalan Harmoni 2",
+    "zone": "A",
+    "lat": 3.02685,
+    "lng": 101.53992,
+    "phone": "011-2098 7731",
+    "members": [
+      {
+        "id": "m012",
+        "name": "Siti Aminah binti Daud",
+        "age": 81,
+        "relationship": "Grandmother",
+        "phone": "",
+        "photo": "",
+        "needs": [
+          "bedridden",
+          "elderly"
+        ],
+        "status": "pending",
+        "clothing": "",
+        "medical": {
+          "bloodType": "A-",
+          "allergies": "None known",
+          "medications": "Warfarin",
+          "conditions": "Stroke survivor, bedridden"
+        }
+      },
+      {
+        "id": "m013",
+        "name": "Rohani binti Ahmad",
+        "age": 55,
+        "relationship": "Daughter (caregiver)",
+        "phone": "",
+        "photo": "",
+        "needs": [],
+        "status": "pending",
+        "clothing": "",
+        "medical": {
+          "bloodType": "B-",
+          "allergies": "None known",
+          "medications": "None",
+          "conditions": "None"
+        }
+      }
+    ],
+    "pets": [],
+    "contacts": [
+      {
+        "name": "Tan Wei Ming (block coordinator)",
+        "phone": "016-221 9087"
+      }
+    ],
+    "outOfArea": {
+      "name": "Relative in Ipoh",
+      "phone": "05-254 8890"
+    },
+    "isCoordinator": false,
+    "script": {
+      "status": "needs_help",
+      "delay": 9,
+      "note": "Mak is bedridden and water is entering the house. Cannot carry her alone."
+    },
+    "checklist": []
+  },
+  {
+    "id": "h05",
+    "name": "Keluarga Wong",
+    "address": "3, Jalan Harmoni 1, Taman Seri Harmoni, 40460 Shah Alam, Selangor",
+    "shortAddress": "3 Jalan Harmoni 1",
+    "street": "Jalan Harmoni 1",
+    "zone": "A",
+    "lat": 3.02465,
+    "lng": 101.5331,
+    "phone": "012-667 0912",
+    "members": [
+      {
+        "id": "m014",
+        "name": "Wong Kah Seng",
+        "age": 40,
+        "relationship": "Father",
+        "phone": "",
+        "photo": "",
+        "needs": [],
+        "status": "pending",
+        "clothing": "",
+        "medical": {
+          "bloodType": "A+",
+          "allergies": "None known",
+          "medications": "None",
+          "conditions": "None"
+        }
+      },
+      {
+        "id": "m015",
+        "name": "Chong Siew Lan",
+        "age": 37,
+        "relationship": "Mother",
+        "phone": "",
+        "photo": "",
+        "needs": [],
+        "status": "pending",
+        "clothing": "",
+        "medical": {
+          "bloodType": "B+",
+          "allergies": "None known",
+          "medications": "None",
+          "conditions": "None"
+        }
+      },
+      {
+        "id": "m016",
+        "name": "Wong Yi Xuan",
+        "age": 0.8,
+        "relationship": "Daughter",
+        "phone": "",
+        "photo": "",
+        "needs": [
+          "infant"
+        ],
+        "status": "pending",
+        "clothing": "",
+        "medical": {
+          "bloodType": "O+",
+          "allergies": "None known",
+          "medications": "None",
+          "conditions": "None"
+        }
+      },
+      {
+        "id": "m017",
+        "name": "Wong Yi Chen",
+        "age": 4,
+        "relationship": "Son",
+        "phone": "",
+        "photo": "",
+        "needs": [
+          "child"
+        ],
+        "status": "pending",
+        "clothing": "",
+        "medical": {
+          "bloodType": "AB+",
+          "allergies": "None known",
+          "medications": "None",
+          "conditions": "None"
+        }
+      }
+    ],
+    "pets": [],
+    "contacts": [
+      {
+        "name": "Tan Wei Ming (block coordinator)",
+        "phone": "016-221 9087"
+      }
+    ],
+    "outOfArea": {
+      "name": "Relative in Ipoh",
+      "phone": "05-254 8890"
+    },
+    "isCoordinator": false,
+    "script": null,
+    "checklist": []
+  },
+  {
+    "id": "h06",
+    "name": "Keluarga Ismail",
+    "address": "5, Jalan Harmoni 1, Taman Seri Harmoni, 40460 Shah Alam, Selangor",
+    "shortAddress": "5 Jalan Harmoni 1",
+    "street": "Jalan Harmoni 1",
+    "zone": "A",
+    "lat": 3.02465,
+    "lng": 101.53434,
+    "phone": "013-455 8820",
+    "members": [
+      {
+        "id": "m018",
+        "name": "Ismail bin Kassim",
+        "age": 72,
+        "relationship": "Husband",
+        "phone": "",
+        "photo": "",
+        "needs": [
+          "oxygen",
+          "elderly"
+        ],
+        "status": "pending",
+        "clothing": "",
+        "medical": {
+          "bloodType": "O-",
+          "allergies": "None known",
+          "medications": "Salbutamol inhaler",
+          "conditions": "COPD, home oxygen 24h"
+        }
+      },
+      {
+        "id": "m019",
+        "name": "Zainab binti Ali",
+        "age": 68,
+        "relationship": "Wife",
+        "phone": "",
+        "photo": "",
+        "needs": [
+          "mobility",
+          "elderly"
+        ],
+        "status": "pending",
+        "clothing": "",
+        "medical": {
+          "bloodType": "A-",
+          "allergies": "None known",
+          "medications": "None",
+          "conditions": "None"
+        }
+      }
+    ],
+    "pets": [],
+    "contacts": [
+      {
+        "name": "Tan Wei Ming (block coordinator)",
+        "phone": "016-221 9087"
+      }
+    ],
+    "outOfArea": {
+      "name": "Relative in Ipoh",
+      "phone": "05-254 8890"
+    },
+    "isCoordinator": false,
+    "script": {
+      "status": "needs_help",
+      "delay": 12,
+      "note": "Power is out. Oxygen concentrator battery has about 2 hours left."
+    },
+    "checklist": []
+  },
+  {
+    "id": "h07",
+    "name": "Puan Kamala",
+    "address": "12, Jalan Aman 3, Taman Seri Harmoni, 40460 Shah Alam, Selangor",
+    "shortAddress": "12 Jalan Aman 3",
+    "street": "Jalan Aman 3",
+    "zone": "B",
+    "lat": 3.02985,
+    "lng": 101.53744,
+    "phone": "03-5512 3349",
+    "members": [
+      {
+        "id": "m020",
+        "name": "Kamala a/p Krishnan",
+        "age": 78,
+        "relationship": "Self",
+        "phone": "",
+        "photo": "",
+        "needs": [
+          "mobility",
+          "elderly"
+        ],
+        "status": "pending",
+        "clothing": "",
+        "medical": {
+          "bloodType": "B-",
+          "allergies": "None known",
+          "medications": "Amlodipine",
+          "conditions": "Hypertension, uses walking frame"
+        }
+      }
+    ],
+    "pets": [],
+    "contacts": [
+      {
+        "name": "Tan Wei Ming (block coordinator)",
+        "phone": "016-221 9087"
+      }
+    ],
+    "outOfArea": {
+      "name": "Relative in Ipoh",
+      "phone": "05-254 8890"
+    },
+    "isCoordinator": false,
+    "script": null,
+    "checklist": [
+      {
+        "id": "c017",
+        "name": "MyKad (IC)",
+        "category": "documents",
+        "location": "Bedroom, steel cabinet, inner shelf, plastic wallet",
+        "ownerId": "m020",
+        "priority": "first",
+        "format": "physical",
+        "verifiedAt": "2026-01-15",
+        "recovery": null,
+        "photo": ""
+      },
+      {
+        "id": "c018",
+        "name": "Blood pressure medicine (Amlodipine)",
+        "category": "medical",
+        "location": "Dining table, white pill box",
+        "ownerId": "m020",
+        "priority": "first",
+        "format": "physical",
+        "verifiedAt": "2026-10-20",
+        "recovery": null,
+        "photo": ""
+      },
+      {
+        "id": "c019",
+        "name": "Hospital appointment card",
+        "category": "medical",
+        "location": "Fridge door, under the magnet",
+        "ownerId": "m020",
+        "priority": "first",
+        "format": "physical",
+        "verifiedAt": "2026-10-20",
+        "recovery": null,
+        "photo": ""
+      },
+      {
+        "id": "c020",
+        "name": "Spare spectacles",
+        "category": "medical",
+        "location": "Prayer room, small shelf",
+        "ownerId": "m020",
+        "priority": "time",
+        "format": "physical",
+        "verifiedAt": "2026-01-15",
+        "recovery": null,
+        "photo": ""
+      },
+      {
+        "id": "c021",
+        "name": "Son's phone number (written)",
+        "category": "family",
+        "location": "Taped inside the main door",
+        "ownerId": "m020",
+        "priority": "first",
+        "format": "physical",
+        "verifiedAt": "2026-01-15",
+        "recovery": null,
+        "photo": ""
+      }
+    ]
+  },
+  {
+    "id": "h08",
+    "name": "Keluarga Azman",
+    "address": "7, Jalan Harmoni 1, Taman Seri Harmoni, 40460 Shah Alam, Selangor",
+    "shortAddress": "7 Jalan Harmoni 1",
+    "street": "Jalan Harmoni 1",
+    "zone": "A",
+    "lat": 3.02465,
+    "lng": 101.53558,
+    "phone": "017-889 2301",
+    "members": [
+      {
+        "id": "m021",
+        "name": "Azman bin Rahim",
+        "age": 33,
+        "relationship": "Father",
+        "phone": "",
+        "photo": "",
+        "needs": [],
+        "status": "pending",
+        "clothing": "",
+        "medical": {
+          "bloodType": "A+",
+          "allergies": "None known",
+          "medications": "None",
+          "conditions": "None"
+        }
+      },
+      {
+        "id": "m022",
+        "name": "Farah binti Zaki",
+        "age": 31,
+        "relationship": "Mother",
+        "phone": "",
+        "photo": "",
+        "needs": [],
+        "status": "pending",
+        "clothing": "",
+        "medical": {
+          "bloodType": "B+",
+          "allergies": "None known",
+          "medications": "None",
+          "conditions": "None"
+        }
+      },
+      {
+        "id": "m023",
+        "name": "Iman Azman",
+        "age": 2,
+        "relationship": "Daughter",
+        "phone": "",
+        "photo": "",
+        "needs": [
+          "child"
+        ],
+        "status": "pending",
+        "clothing": "",
+        "medical": {
+          "bloodType": "O+",
+          "allergies": "None known",
+          "medications": "None",
+          "conditions": "None"
+        }
+      },
+      {
+        "id": "m024",
+        "name": "Irfan Azman",
+        "age": 2,
+        "relationship": "Son",
+        "phone": "",
+        "photo": "",
+        "needs": [
+          "child"
+        ],
+        "status": "pending",
+        "clothing": "",
+        "medical": {
+          "bloodType": "AB+",
+          "allergies": "None known",
+          "medications": "None",
+          "conditions": "None"
+        }
+      }
+    ],
+    "pets": [],
+    "contacts": [
+      {
+        "name": "Tan Wei Ming (block coordinator)",
+        "phone": "016-221 9087"
+      }
+    ],
+    "outOfArea": {
+      "name": "Relative in Ipoh",
+      "phone": "05-254 8890"
+    },
+    "isCoordinator": false,
+    "script": {
+      "status": "safe",
+      "delay": 5
+    },
+    "checklist": []
+  },
+  {
+    "id": "h09",
+    "name": "Encik Daniel Lim",
+    "address": "9, Jalan Harmoni 1, Taman Seri Harmoni, 40460 Shah Alam, Selangor",
+    "shortAddress": "9 Jalan Harmoni 1",
+    "street": "Jalan Harmoni 1",
+    "zone": "A",
+    "lat": 3.02465,
+    "lng": 101.53682,
+    "phone": "011-1234 5678",
+    "members": [
+      {
+        "id": "m025",
+        "name": "Daniel Lim Wei Jie",
+        "age": 29,
+        "relationship": "Self",
+        "phone": "",
+        "photo": "",
+        "needs": [],
+        "status": "pending",
+        "clothing": "",
+        "medical": {
+          "bloodType": "O-",
+          "allergies": "None known",
+          "medications": "None",
+          "conditions": "None"
+        }
+      }
+    ],
+    "pets": [],
+    "contacts": [
+      {
+        "name": "Tan Wei Ming (block coordinator)",
+        "phone": "016-221 9087"
+      }
+    ],
+    "outOfArea": {
+      "name": "Relative in Ipoh",
+      "phone": "05-254 8890"
+    },
+    "isCoordinator": false,
+    "script": {
+      "status": "safe",
+      "delay": 3
+    },
+    "checklist": []
+  },
+  {
+    "id": "h10",
+    "name": "Keluarga Muthu",
+    "address": "11, Jalan Harmoni 1, Taman Seri Harmoni, 40460 Shah Alam, Selangor",
+    "shortAddress": "11 Jalan Harmoni 1",
+    "street": "Jalan Harmoni 1",
+    "zone": "A",
+    "lat": 3.02465,
+    "lng": 101.53806,
+    "phone": "012-904 3376",
+    "members": [
+      {
+        "id": "m026",
+        "name": "Muthu a/l Ramasamy",
+        "age": 60,
+        "relationship": "Father",
+        "phone": "",
+        "photo": "",
+        "needs": [],
+        "status": "pending",
+        "clothing": "",
+        "medical": {
+          "bloodType": "A-",
+          "allergies": "None known",
+          "medications": "None",
+          "conditions": "None"
+        }
+      },
+      {
+        "id": "m027",
+        "name": "Lakshmi a/p Pillai",
+        "age": 58,
+        "relationship": "Mother",
+        "phone": "",
+        "photo": "",
+        "needs": [],
+        "status": "pending",
+        "clothing": "",
+        "medical": {
+          "bloodType": "B-",
+          "allergies": "None known",
+          "medications": "None",
+          "conditions": "None"
+        }
+      },
+      {
+        "id": "m028",
+        "name": "Ganesh Muthu",
+        "age": 30,
+        "relationship": "Son",
+        "phone": "",
+        "photo": "",
+        "needs": [
+          "disabled",
+          "mobility"
+        ],
+        "status": "pending",
+        "clothing": "",
+        "medical": {
+          "bloodType": "A+",
+          "allergies": "None known",
+          "medications": "None",
+          "conditions": "Spinal injury, wheelchair user"
+        }
+      }
+    ],
+    "pets": [],
+    "contacts": [
+      {
+        "name": "Tan Wei Ming (block coordinator)",
+        "phone": "016-221 9087"
+      }
+    ],
+    "outOfArea": {
+      "name": "Relative in Ipoh",
+      "phone": "05-254 8890"
+    },
+    "isCoordinator": false,
+    "script": null,
+    "checklist": []
+  },
+  {
+    "id": "h11",
+    "name": "Keluarga Hafiz",
+    "address": "2, Jalan Harmoni 3, Taman Seri Harmoni, 40460 Shah Alam, Selangor",
+    "shortAddress": "2 Jalan Harmoni 3",
+    "street": "Jalan Harmoni 3",
+    "zone": "B",
+    "lat": 3.02835,
+    "lng": 101.53124,
+    "phone": "019-776 4410",
+    "members": [
+      {
+        "id": "m029",
+        "name": "Hafiz bin Zainal",
+        "age": 41,
+        "relationship": "Father",
+        "phone": "",
+        "photo": "",
+        "needs": [],
+        "status": "pending",
+        "clothing": "",
+        "medical": {
+          "bloodType": "B+",
+          "allergies": "None known",
+          "medications": "None",
+          "conditions": "None"
+        }
+      },
+      {
+        "id": "m030",
+        "name": "Liyana binti Musa",
+        "age": 39,
+        "relationship": "Mother",
+        "phone": "",
+        "photo": "",
+        "needs": [],
+        "status": "pending",
+        "clothing": "",
+        "medical": {
+          "bloodType": "O+",
+          "allergies": "None known",
+          "medications": "None",
+          "conditions": "None"
+        }
+      },
+      {
+        "id": "m031",
+        "name": "Danish Hafiz",
+        "age": 11,
+        "relationship": "Son",
+        "phone": "",
+        "photo": "",
+        "needs": [
+          "child"
+        ],
+        "status": "pending",
+        "clothing": "",
+        "medical": {
+          "bloodType": "AB+",
+          "allergies": "None known",
+          "medications": "None",
+          "conditions": "None"
+        }
+      },
+      {
+        "id": "m032",
+        "name": "Sofea Hafiz",
+        "age": 8,
+        "relationship": "Daughter",
+        "phone": "",
+        "photo": "",
+        "needs": [
+          "child"
+        ],
+        "status": "pending",
+        "clothing": "",
+        "medical": {
+          "bloodType": "O-",
+          "allergies": "None known",
+          "medications": "None",
+          "conditions": "None"
+        }
+      },
+      {
+        "id": "m033",
+        "name": "Mikail Hafiz",
+        "age": 1,
+        "relationship": "Son",
+        "phone": "",
+        "photo": "",
+        "needs": [
+          "infant"
+        ],
+        "status": "pending",
+        "clothing": "",
+        "medical": {
+          "bloodType": "A-",
+          "allergies": "None known",
+          "medications": "None",
+          "conditions": "None"
+        }
+      }
+    ],
+    "pets": [],
+    "contacts": [
+      {
+        "name": "Tan Wei Ming (block coordinator)",
+        "phone": "016-221 9087"
+      }
+    ],
+    "outOfArea": {
+      "name": "Relative in Ipoh",
+      "phone": "05-254 8890"
+    },
+    "isCoordinator": false,
+    "script": {
+      "status": "safe",
+      "delay": 7
+    },
+    "checklist": []
+  },
+  {
+    "id": "h12",
+    "name": "Keluarga Ong",
+    "address": "4, Jalan Harmoni 3, Taman Seri Harmoni, 40460 Shah Alam, Selangor",
+    "shortAddress": "4 Jalan Harmoni 3",
+    "street": "Jalan Harmoni 3",
+    "zone": "B",
+    "lat": 3.02835,
+    "lng": 101.53248,
+    "phone": "016-330 2219",
+    "members": [
+      {
+        "id": "m034",
+        "name": "Ong Boon Keat",
+        "age": 55,
+        "relationship": "Husband",
+        "phone": "",
+        "photo": "",
+        "needs": [],
+        "status": "pending",
+        "clothing": "",
+        "medical": {
+          "bloodType": "B-",
+          "allergies": "None known",
+          "medications": "None",
+          "conditions": "None"
+        }
+      },
+      {
+        "id": "m035",
+        "name": "Ng Pei Shan",
+        "age": 50,
+        "relationship": "Wife",
+        "phone": "",
+        "photo": "",
+        "needs": [],
+        "status": "pending",
+        "clothing": "",
+        "medical": {
+          "bloodType": "A+",
+          "allergies": "None known",
+          "medications": "None",
+          "conditions": "None"
+        }
+      }
+    ],
+    "pets": [
+      "Lucky (dog)",
+      "Coco (dog)",
+      "Mimi (cat)"
+    ],
+    "contacts": [
+      {
+        "name": "Tan Wei Ming (block coordinator)",
+        "phone": "016-221 9087"
+      }
+    ],
+    "outOfArea": {
+      "name": "Relative in Ipoh",
+      "phone": "05-254 8890"
+    },
+    "isCoordinator": false,
+    "script": {
+      "status": "safe",
+      "delay": 8
+    },
+    "checklist": [
+      {
+        "id": "c022",
+        "name": "MyKad & passports",
+        "category": "documents",
+        "location": "Master bedroom, wardrobe, document box",
+        "ownerId": "m034",
+        "priority": "first",
+        "format": "both",
+        "verifiedAt": "2026-05-05",
+        "recovery": null,
+        "photo": ""
+      },
+      {
+        "id": "c023",
+        "name": "Pet vaccination cards",
+        "category": "family",
+        "location": "Kitchen drawer 3, yellow folder",
+        "ownerId": null,
+        "priority": "time",
+        "format": "physical",
+        "verifiedAt": "2026-05-05",
+        "recovery": null,
+        "photo": ""
+      },
+      {
+        "id": "c024",
+        "name": "Dog leashes & pet food (3 days)",
+        "category": "family",
+        "location": "Porch, blue storage box",
+        "ownerId": null,
+        "priority": "first",
+        "format": "physical",
+        "verifiedAt": "2026-05-05",
+        "recovery": null,
+        "photo": ""
+      },
+      {
+        "id": "c025",
+        "name": "Phone chargers & power bank",
+        "category": "devices",
+        "location": "Living room, TV console",
+        "ownerId": "m034",
+        "priority": "first",
+        "format": "physical",
+        "verifiedAt": "2026-05-05",
+        "recovery": null,
+        "photo": ""
+      }
+    ]
+  },
+  {
+    "id": "h13",
+    "name": "Keluarga Rosli",
+    "address": "6, Jalan Harmoni 3, Taman Seri Harmoni, 40460 Shah Alam, Selangor",
+    "shortAddress": "6 Jalan Harmoni 3",
+    "street": "Jalan Harmoni 3",
+    "zone": "B",
+    "lat": 3.02835,
+    "lng": 101.53372,
+    "phone": "013-208 6654",
+    "members": [
+      {
+        "id": "m036",
+        "name": "Rosli bin Yahya",
+        "age": 67,
+        "relationship": "Husband",
+        "phone": "",
+        "photo": "",
+        "needs": [
+          "dialysis",
+          "elderly"
+        ],
+        "status": "pending",
+        "clothing": "",
+        "medical": {
+          "bloodType": "B+",
+          "allergies": "None known",
+          "medications": "None",
+          "conditions": "Kidney failure, dialysis Mon/Wed/Fri"
+        }
+      },
+      {
+        "id": "m037",
+        "name": "Salmah binti Ibrahim",
+        "age": 64,
+        "relationship": "Wife",
+        "phone": "",
+        "photo": "",
+        "needs": [],
+        "status": "pending",
+        "clothing": "",
+        "medical": {
+          "bloodType": "O+",
+          "allergies": "None known",
+          "medications": "None",
+          "conditions": "None"
+        }
+      }
+    ],
+    "pets": [],
+    "contacts": [
+      {
+        "name": "Tan Wei Ming (block coordinator)",
+        "phone": "016-221 9087"
+      }
+    ],
+    "outOfArea": {
+      "name": "Relative in Ipoh",
+      "phone": "05-254 8890"
+    },
+    "isCoordinator": false,
+    "script": null,
+    "checklist": []
+  },
+  {
+    "id": "h14",
+    "name": "Keluarga Chandran",
+    "address": "8, Jalan Harmoni 3, Taman Seri Harmoni, 40460 Shah Alam, Selangor",
+    "shortAddress": "8 Jalan Harmoni 3",
+    "street": "Jalan Harmoni 3",
+    "zone": "B",
+    "lat": 3.02835,
+    "lng": 101.53496,
+    "phone": "012-551 0938",
+    "members": [
+      {
+        "id": "m038",
+        "name": "Chandran a/l Nair",
+        "age": 44,
+        "relationship": "Husband",
+        "phone": "",
+        "photo": "",
+        "needs": [],
+        "status": "pending",
+        "clothing": "",
+        "medical": {
+          "bloodType": "AB+",
+          "allergies": "None known",
+          "medications": "None",
+          "conditions": "None"
+        }
+      },
+      {
+        "id": "m039",
+        "name": "Deepa a/p Menon",
+        "age": 42,
+        "relationship": "Wife",
+        "phone": "",
+        "photo": "",
+        "needs": [],
+        "status": "pending",
+        "clothing": "",
+        "medical": {
+          "bloodType": "O-",
+          "allergies": "None known",
+          "medications": "None",
+          "conditions": "None"
+        }
+      }
+    ],
+    "pets": [],
+    "contacts": [
+      {
+        "name": "Tan Wei Ming (block coordinator)",
+        "phone": "016-221 9087"
+      }
+    ],
+    "outOfArea": {
+      "name": "Relative in Ipoh",
+      "phone": "05-254 8890"
+    },
+    "isCoordinator": false,
+    "script": {
+      "status": "safe",
+      "delay": 10
+    },
+    "checklist": []
+  },
+  {
+    "id": "h15",
+    "name": "Keluarga Yusof",
+    "address": "10, Jalan Harmoni 3, Taman Seri Harmoni, 40460 Shah Alam, Selangor",
+    "shortAddress": "10 Jalan Harmoni 3",
+    "street": "Jalan Harmoni 3",
+    "zone": "B",
+    "lat": 3.02835,
+    "lng": 101.5362,
+    "phone": "019-302 7781",
+    "members": [
+      {
+        "id": "m040",
+        "name": "Yusof bin Hamid",
+        "age": 50,
+        "relationship": "Father",
+        "phone": "",
+        "photo": "",
+        "needs": [],
+        "status": "pending",
+        "clothing": "",
+        "medical": {
+          "bloodType": "A-",
+          "allergies": "None known",
+          "medications": "None",
+          "conditions": "None"
+        }
+      },
+      {
+        "id": "m041",
+        "name": "Aini binti Salleh",
+        "age": 47,
+        "relationship": "Mother",
+        "phone": "",
+        "photo": "",
+        "needs": [],
+        "status": "pending",
+        "clothing": "",
+        "medical": {
+          "bloodType": "B-",
+          "allergies": "None known",
+          "medications": "None",
+          "conditions": "None"
+        }
+      },
+      {
+        "id": "m042",
+        "name": "Hakim Yusof",
+        "age": 20,
+        "relationship": "Son",
+        "phone": "",
+        "photo": "",
+        "needs": [],
+        "status": "pending",
+        "clothing": "",
+        "medical": {
+          "bloodType": "A+",
+          "allergies": "None known",
+          "medications": "None",
+          "conditions": "None"
+        }
+      },
+      {
+        "id": "m043",
+        "name": "Hana Yusof",
+        "age": 16,
+        "relationship": "Daughter",
+        "phone": "",
+        "photo": "",
+        "needs": [],
+        "status": "pending",
+        "clothing": "",
+        "medical": {
+          "bloodType": "B+",
+          "allergies": "None known",
+          "medications": "None",
+          "conditions": "None"
+        }
+      }
+    ],
+    "pets": [],
+    "contacts": [
+      {
+        "name": "Tan Wei Ming (block coordinator)",
+        "phone": "016-221 9087"
+      }
+    ],
+    "outOfArea": {
+      "name": "Relative in Ipoh",
+      "phone": "05-254 8890"
+    },
+    "isCoordinator": false,
+    "script": {
+      "status": "safe",
+      "delay": 6
+    },
+    "checklist": []
+  },
+  {
+    "id": "h16",
+    "name": "Cik Nadia",
+    "address": "1, Jalan Aman 3, Taman Seri Harmoni, 40460 Shah Alam, Selangor",
+    "shortAddress": "1 Jalan Aman 3",
+    "street": "Jalan Aman 3",
+    "zone": "B",
+    "lat": 3.02915,
+    "lng": 101.53062,
+    "phone": "011-5566 2210",
+    "members": [
+      {
+        "id": "m044",
+        "name": "Nadia binti Rashid",
+        "age": 26,
+        "relationship": "Self",
+        "phone": "",
+        "photo": "",
+        "needs": [],
+        "status": "pending",
+        "clothing": "",
+        "medical": {
+          "bloodType": "O+",
+          "allergies": "None known",
+          "medications": "None",
+          "conditions": "None"
+        }
+      }
+    ],
+    "pets": [],
+    "contacts": [
+      {
+        "name": "Tan Wei Ming (block coordinator)",
+        "phone": "016-221 9087"
+      }
+    ],
+    "outOfArea": {
+      "name": "Relative in Ipoh",
+      "phone": "05-254 8890"
+    },
+    "isCoordinator": false,
+    "script": {
+      "status": "safe",
+      "delay": 4
+    },
+    "checklist": []
+  },
+  {
+    "id": "h17",
+    "name": "Keluarga Lee",
+    "address": "3, Jalan Aman 3, Taman Seri Harmoni, 40460 Shah Alam, Selangor",
+    "shortAddress": "3 Jalan Aman 3",
+    "street": "Jalan Aman 3",
+    "zone": "B",
+    "lat": 3.02915,
+    "lng": 101.53186,
+    "phone": "03-5519 8823",
+    "members": [
+      {
+        "id": "m045",
+        "name": "Lee Chee Keong",
+        "age": 70,
+        "relationship": "Husband",
+        "phone": "",
+        "photo": "",
+        "needs": [
+          "mobility",
+          "elderly"
+        ],
+        "status": "pending",
+        "clothing": "",
+        "medical": {
+          "bloodType": "AB+",
+          "allergies": "None known",
+          "medications": "None",
+          "conditions": "None"
+        }
+      },
+      {
+        "id": "m046",
+        "name": "Lee Ah Moi",
+        "age": 69,
+        "relationship": "Wife",
+        "phone": "",
+        "photo": "",
+        "needs": [
+          "elderly"
+        ],
+        "status": "pending",
+        "clothing": "",
+        "medical": {
+          "bloodType": "O-",
+          "allergies": "None known",
+          "medications": "Metformin",
+          "conditions": "Diabetes"
+        }
+      }
+    ],
+    "pets": [],
+    "contacts": [
+      {
+        "name": "Tan Wei Ming (block coordinator)",
+        "phone": "016-221 9087"
+      }
+    ],
+    "outOfArea": {
+      "name": "Relative in Ipoh",
+      "phone": "05-254 8890"
+    },
+    "isCoordinator": false,
+    "script": {
+      "status": "safe",
+      "delay": 14
+    },
+    "checklist": []
+  },
+  {
+    "id": "h18",
+    "name": "Keluarga Ramli",
+    "address": "5, Jalan Aman 3, Taman Seri Harmoni, 40460 Shah Alam, Selangor",
+    "shortAddress": "5 Jalan Aman 3",
+    "street": "Jalan Aman 3",
+    "zone": "B",
+    "lat": 3.02915,
+    "lng": 101.5331,
+    "phone": "017-221 0045",
+    "members": [
+      {
+        "id": "m047",
+        "name": "Ramli bin Ahmad",
+        "age": 36,
+        "relationship": "Father",
+        "phone": "",
+        "photo": "",
+        "needs": [],
+        "status": "pending",
+        "clothing": "",
+        "medical": {
+          "bloodType": "A-",
+          "allergies": "None known",
+          "medications": "None",
+          "conditions": "None"
+        }
+      },
+      {
+        "id": "m048",
+        "name": "Suraya binti Kamal",
+        "age": 34,
+        "relationship": "Mother",
+        "phone": "",
+        "photo": "",
+        "needs": [
+          "pregnant"
+        ],
+        "status": "pending",
+        "clothing": "",
+        "medical": {
+          "bloodType": "B-",
+          "allergies": "None known",
+          "medications": "None",
+          "conditions": "None"
+        }
+      },
+      {
+        "id": "m049",
+        "name": "Amir Ramli",
+        "age": 5,
+        "relationship": "Son",
+        "phone": "",
+        "photo": "",
+        "needs": [
+          "child"
+        ],
+        "status": "pending",
+        "clothing": "",
+        "medical": {
+          "bloodType": "A+",
+          "allergies": "None known",
+          "medications": "None",
+          "conditions": "None"
+        }
+      }
+    ],
+    "pets": [],
+    "contacts": [
+      {
+        "name": "Tan Wei Ming (block coordinator)",
+        "phone": "016-221 9087"
+      }
+    ],
+    "outOfArea": {
+      "name": "Relative in Ipoh",
+      "phone": "05-254 8890"
+    },
+    "isCoordinator": false,
+    "script": {
+      "status": "safe",
+      "delay": 9
+    },
+    "checklist": []
+  },
+  {
+    "id": "h19",
+    "name": "Keluarga Gopal",
+    "address": "7, Jalan Aman 3, Taman Seri Harmoni, 40460 Shah Alam, Selangor",
+    "shortAddress": "7 Jalan Aman 3",
+    "street": "Jalan Aman 3",
+    "zone": "B",
+    "lat": 3.02915,
+    "lng": 101.53434,
+    "phone": "012-776 3398",
+    "members": [
+      {
+        "id": "m050",
+        "name": "Gopal a/l Arumugam",
+        "age": 48,
+        "relationship": "Father",
+        "phone": "",
+        "photo": "",
+        "needs": [],
+        "status": "pending",
+        "clothing": "",
+        "medical": {
+          "bloodType": "B+",
+          "allergies": "None known",
+          "medications": "None",
+          "conditions": "None"
+        }
+      },
+      {
+        "id": "m051",
+        "name": "Sumathi a/p Raju",
+        "age": 46,
+        "relationship": "Mother",
+        "phone": "",
+        "photo": "",
+        "needs": [],
+        "status": "pending",
+        "clothing": "",
+        "medical": {
+          "bloodType": "O+",
+          "allergies": "None known",
+          "medications": "None",
+          "conditions": "None"
+        }
+      },
+      {
+        "id": "m052",
+        "name": "Vishnu Gopal",
+        "age": 12,
+        "relationship": "Son",
+        "phone": "",
+        "photo": "",
+        "needs": [
+          "child"
+        ],
+        "status": "pending",
+        "clothing": "",
+        "medical": {
+          "bloodType": "AB+",
+          "allergies": "None known",
+          "medications": "None",
+          "conditions": "None"
+        }
+      }
+    ],
+    "pets": [],
+    "contacts": [
+      {
+        "name": "Tan Wei Ming (block coordinator)",
+        "phone": "016-221 9087"
+      }
+    ],
+    "outOfArea": {
+      "name": "Relative in Ipoh",
+      "phone": "05-254 8890"
+    },
+    "isCoordinator": false,
+    "script": {
+      "status": "safe",
+      "delay": 11
+    },
+    "checklist": []
+  },
+  {
+    "id": "h20",
+    "name": "Keluarga Kamarul",
+    "address": "9, Jalan Aman 3, Taman Seri Harmoni, 40460 Shah Alam, Selangor",
+    "shortAddress": "9 Jalan Aman 3",
+    "street": "Jalan Aman 3",
+    "zone": "B",
+    "lat": 3.02915,
+    "lng": 101.53558,
+    "phone": "013-990 1276",
+    "members": [
+      {
+        "id": "m053",
+        "name": "Kamarul bin Ariffin",
+        "age": 39,
+        "relationship": "Father",
+        "phone": "",
+        "photo": "",
+        "needs": [],
+        "status": "pending",
+        "clothing": "",
+        "medical": {
+          "bloodType": "O-",
+          "allergies": "None known",
+          "medications": "None",
+          "conditions": "None"
+        }
+      },
+      {
+        "id": "m054",
+        "name": "Ain binti Sulaiman",
+        "age": 37,
+        "relationship": "Mother",
+        "phone": "",
+        "photo": "",
+        "needs": [],
+        "status": "pending",
+        "clothing": "",
+        "medical": {
+          "bloodType": "A-",
+          "allergies": "None known",
+          "medications": "None",
+          "conditions": "None"
+        }
+      },
+      {
+        "id": "m055",
+        "name": "Zara Kamarul",
+        "age": 7,
+        "relationship": "Daughter",
+        "phone": "",
+        "photo": "",
+        "needs": [
+          "child"
+        ],
+        "status": "pending",
+        "clothing": "",
+        "medical": {
+          "bloodType": "B-",
+          "allergies": "None known",
+          "medications": "None",
+          "conditions": "None"
+        }
+      },
+      {
+        "id": "m056",
+        "name": "Zayn Kamarul",
+        "age": 4,
+        "relationship": "Son",
+        "phone": "",
+        "photo": "",
+        "needs": [
+          "child"
+        ],
+        "status": "pending",
+        "clothing": "",
+        "medical": {
+          "bloodType": "A+",
+          "allergies": "None known",
+          "medications": "None",
+          "conditions": "None"
+        }
+      }
+    ],
+    "pets": [
+      "Tompok (cat)"
+    ],
+    "contacts": [
+      {
+        "name": "Tan Wei Ming (block coordinator)",
+        "phone": "016-221 9087"
+      }
+    ],
+    "outOfArea": {
+      "name": "Relative in Ipoh",
+      "phone": "05-254 8890"
+    },
+    "isCoordinator": false,
+    "script": {
+      "status": "safe",
+      "delay": 5
+    },
+    "checklist": [
+      {
+        "id": "c026",
+        "name": "MyKad (IC) — Kamarul & Ain",
+        "category": "documents",
+        "location": "Master bedroom, drawer under the TV, black pouch",
+        "ownerId": "m053",
+        "priority": "first",
+        "format": "both",
+        "verifiedAt": "2026-08-20",
+        "recovery": null,
+        "photo": ""
+      },
+      {
+        "id": "c027",
+        "name": "Birth certificates — Zara & Zayn",
+        "category": "documents",
+        "location": "Same black pouch",
+        "ownerId": "m053",
+        "priority": "first",
+        "format": "both",
+        "verifiedAt": "2026-08-20",
+        "recovery": null,
+        "photo": ""
+      },
+      {
+        "id": "c028",
+        "name": "Zayn's inhaler",
+        "category": "medical",
+        "location": "Kitchen counter, blue basket",
+        "ownerId": "m056",
+        "priority": "first",
+        "format": "physical",
+        "verifiedAt": "2026-11-05",
+        "recovery": null,
+        "photo": ""
+      },
+      {
+        "id": "c029",
+        "name": "Laptop & external hard drive",
+        "category": "devices",
+        "location": "Study desk, left drawer",
+        "ownerId": "m053",
+        "priority": "time",
+        "format": "physical",
+        "verifiedAt": "2026-08-20",
+        "recovery": null,
+        "photo": ""
+      },
+      {
+        "id": "c030",
+        "name": "Emergency kit",
+        "category": "kit",
+        "location": "Car boot, grey box",
+        "ownerId": null,
+        "priority": "first",
+        "format": "physical",
+        "verifiedAt": "2026-06-01",
+        "recovery": null,
+        "photo": ""
+      },
+      {
+        "id": "c031",
+        "name": "Cat carrier & food",
+        "category": "family",
+        "location": "Laundry area, top shelf",
+        "ownerId": null,
+        "priority": "time",
+        "format": "physical",
+        "verifiedAt": "2026-06-01",
+        "recovery": null,
+        "photo": ""
+      }
+    ]
+  },
+  {
+    "id": "h21",
+    "name": "Puan Lim Siew Hoon",
+    "address": "1, Lorong Aman 1, Taman Seri Harmoni, 40460 Shah Alam, Selangor",
+    "shortAddress": "1 Lorong Aman 1",
+    "street": "Lorong Aman 1",
+    "zone": "C",
+    "lat": 3.03065,
+    "lng": 101.53062,
+    "phone": "03-5510 4471",
+    "members": [
+      {
+        "id": "m057",
+        "name": "Lim Siew Hoon",
+        "age": 74,
+        "relationship": "Grandmother",
+        "phone": "",
+        "photo": "",
+        "needs": [
+          "elderly"
+        ],
+        "status": "pending",
+        "clothing": "",
+        "medical": {
+          "bloodType": "B+",
+          "allergies": "None known",
+          "medications": "None",
+          "conditions": "Arthritis"
+        }
+      },
+      {
+        "id": "m058",
+        "name": "Lim Jia Le",
+        "age": 10,
+        "relationship": "Grandson",
+        "phone": "",
+        "photo": "",
+        "needs": [
+          "child"
+        ],
+        "status": "pending",
+        "clothing": "",
+        "medical": {
+          "bloodType": "O+",
+          "allergies": "None known",
+          "medications": "None",
+          "conditions": "None"
+        }
+      }
+    ],
+    "pets": [],
+    "contacts": [
+      {
+        "name": "Tan Wei Ming (block coordinator)",
+        "phone": "016-221 9087"
+      }
+    ],
+    "outOfArea": {
+      "name": "Relative in Ipoh",
+      "phone": "05-254 8890"
+    },
+    "isCoordinator": false,
+    "script": null,
+    "checklist": []
+  },
+  {
+    "id": "h22",
+    "name": "Keluarga Abdullah",
+    "address": "3, Lorong Aman 1, Taman Seri Harmoni, 40460 Shah Alam, Selangor",
+    "shortAddress": "3 Lorong Aman 1",
+    "street": "Lorong Aman 1",
+    "zone": "C",
+    "lat": 3.03065,
+    "lng": 101.53186,
+    "phone": "019-887 6612",
+    "members": [
+      {
+        "id": "m059",
+        "name": "Abdullah bin Omar",
+        "age": 58,
+        "relationship": "Husband",
+        "phone": "",
+        "photo": "",
+        "needs": [],
+        "status": "pending",
+        "clothing": "",
+        "medical": {
+          "bloodType": "AB+",
+          "allergies": "None known",
+          "medications": "None",
+          "conditions": "None"
+        }
+      },
+      {
+        "id": "m060",
+        "name": "Mariam binti Yaakob",
+        "age": 55,
+        "relationship": "Wife",
+        "phone": "",
+        "photo": "",
+        "needs": [],
+        "status": "pending",
+        "clothing": "",
+        "medical": {
+          "bloodType": "O-",
+          "allergies": "None known",
+          "medications": "None",
+          "conditions": "None"
+        }
+      }
+    ],
+    "pets": [],
+    "contacts": [
+      {
+        "name": "Tan Wei Ming (block coordinator)",
+        "phone": "016-221 9087"
+      }
+    ],
+    "outOfArea": {
+      "name": "Relative in Ipoh",
+      "phone": "05-254 8890"
+    },
+    "isCoordinator": false,
+    "script": {
+      "status": "safe",
+      "delay": 7
+    },
+    "checklist": []
+  },
+  {
+    "id": "h23",
+    "name": "Keluarga Kumar",
+    "address": "5, Lorong Aman 1, Taman Seri Harmoni, 40460 Shah Alam, Selangor",
+    "shortAddress": "5 Lorong Aman 1",
+    "street": "Lorong Aman 1",
+    "zone": "C",
+    "lat": 3.03065,
+    "lng": 101.5331,
+    "phone": "016-443 9901",
+    "members": [
+      {
+        "id": "m061",
+        "name": "Kumar a/l Velu",
+        "age": 35,
+        "relationship": "Father",
+        "phone": "",
+        "photo": "",
+        "needs": [],
+        "status": "pending",
+        "clothing": "",
+        "medical": {
+          "bloodType": "A-",
+          "allergies": "None known",
+          "medications": "None",
+          "conditions": "None"
+        }
+      },
+      {
+        "id": "m062",
+        "name": "Anitha a/p Mohan",
+        "age": 33,
+        "relationship": "Mother",
+        "phone": "",
+        "photo": "",
+        "needs": [],
+        "status": "pending",
+        "clothing": "",
+        "medical": {
+          "bloodType": "B-",
+          "allergies": "None known",
+          "medications": "None",
+          "conditions": "None"
+        }
+      },
+      {
+        "id": "m063",
+        "name": "Kavin Kumar",
+        "age": 0.5,
+        "relationship": "Son",
+        "phone": "",
+        "photo": "",
+        "needs": [
+          "infant"
+        ],
+        "status": "pending",
+        "clothing": "",
+        "medical": {
+          "bloodType": "A+",
+          "allergies": "None known",
+          "medications": "None",
+          "conditions": "None"
+        }
+      }
+    ],
+    "pets": [],
+    "contacts": [
+      {
+        "name": "Tan Wei Ming (block coordinator)",
+        "phone": "016-221 9087"
+      }
+    ],
+    "outOfArea": {
+      "name": "Relative in Ipoh",
+      "phone": "05-254 8890"
+    },
+    "isCoordinator": false,
+    "script": {
+      "status": "safe",
+      "delay": 6
+    },
+    "checklist": []
+  },
+  {
+    "id": "h24",
+    "name": "Encik Zulkifli",
+    "address": "7, Lorong Aman 1, Taman Seri Harmoni, 40460 Shah Alam, Selangor",
+    "shortAddress": "7 Lorong Aman 1",
+    "street": "Lorong Aman 1",
+    "zone": "C",
+    "lat": 3.03065,
+    "lng": 101.53434,
+    "phone": "011-3344 7788",
+    "members": [
+      {
+        "id": "m064",
+        "name": "Zulkifli bin Mansor",
+        "age": 31,
+        "relationship": "Self",
+        "phone": "",
+        "photo": "",
+        "needs": [],
+        "status": "pending",
+        "clothing": "",
+        "medical": {
+          "bloodType": "B+",
+          "allergies": "None known",
+          "medications": "None",
+          "conditions": "None"
+        }
+      }
+    ],
+    "pets": [],
+    "contacts": [
+      {
+        "name": "Tan Wei Ming (block coordinator)",
+        "phone": "016-221 9087"
+      }
+    ],
+    "outOfArea": {
+      "name": "Relative in Ipoh",
+      "phone": "05-254 8890"
+    },
+    "isCoordinator": false,
+    "script": {
+      "status": "safe",
+      "delay": 3
+    },
+    "checklist": []
+  },
+  {
+    "id": "h25",
+    "name": "Keluarga Teo",
+    "address": "9, Lorong Aman 1, Taman Seri Harmoni, 40460 Shah Alam, Selangor",
+    "shortAddress": "9 Lorong Aman 1",
+    "street": "Lorong Aman 1",
+    "zone": "C",
+    "lat": 3.03065,
+    "lng": 101.53558,
+    "phone": "012-210 5543",
+    "members": [
+      {
+        "id": "m065",
+        "name": "Teo Kok Wai",
+        "age": 45,
+        "relationship": "Father",
+        "phone": "",
+        "photo": "",
+        "needs": [],
+        "status": "pending",
+        "clothing": "",
+        "medical": {
+          "bloodType": "O+",
+          "allergies": "None known",
+          "medications": "None",
+          "conditions": "None"
+        }
+      },
+      {
+        "id": "m066",
+        "name": "Goh Li Ping",
+        "age": 43,
+        "relationship": "Mother",
+        "phone": "",
+        "photo": "",
+        "needs": [],
+        "status": "pending",
+        "clothing": "",
+        "medical": {
+          "bloodType": "AB+",
+          "allergies": "None known",
+          "medications": "None",
+          "conditions": "None"
+        }
+      },
+      {
+        "id": "m067",
+        "name": "Teo Kai Xin",
+        "age": 13,
+        "relationship": "Daughter",
+        "phone": "",
+        "photo": "",
+        "needs": [],
+        "status": "pending",
+        "clothing": "",
+        "medical": {
+          "bloodType": "O-",
+          "allergies": "None known",
+          "medications": "None",
+          "conditions": "None"
+        }
+      }
+    ],
+    "pets": [],
+    "contacts": [
+      {
+        "name": "Tan Wei Ming (block coordinator)",
+        "phone": "016-221 9087"
+      }
+    ],
+    "outOfArea": {
+      "name": "Relative in Ipoh",
+      "phone": "05-254 8890"
+    },
+    "isCoordinator": false,
+    "script": {
+      "status": "safe",
+      "delay": 8
+    },
+    "checklist": []
+  },
+  {
+    "id": "h26",
+    "name": "Keluarga Harun",
+    "address": "2, Jalan Bukit Harmoni, Taman Seri Harmoni, 40460 Shah Alam, Selangor",
+    "shortAddress": "2 Jalan Bukit Harmoni",
+    "street": "Jalan Bukit Harmoni",
+    "zone": "D",
+    "lat": 3.03355,
+    "lng": 101.53124,
+    "phone": "013-662 1180",
+    "members": [
+      {
+        "id": "m068",
+        "name": "Harun bin Said",
+        "age": 63,
+        "relationship": "Husband",
+        "phone": "",
+        "photo": "",
+        "needs": [],
+        "status": "pending",
+        "clothing": "",
+        "medical": {
+          "bloodType": "A-",
+          "allergies": "None known",
+          "medications": "None",
+          "conditions": "None"
+        }
+      },
+      {
+        "id": "m069",
+        "name": "Rokiah binti Mat",
+        "age": 61,
+        "relationship": "Wife",
+        "phone": "",
+        "photo": "",
+        "needs": [],
+        "status": "pending",
+        "clothing": "",
+        "medical": {
+          "bloodType": "B-",
+          "allergies": "None known",
+          "medications": "None",
+          "conditions": "None"
+        }
+      }
+    ],
+    "pets": [],
+    "contacts": [
+      {
+        "name": "Tan Wei Ming (block coordinator)",
+        "phone": "016-221 9087"
+      }
+    ],
+    "outOfArea": {
+      "name": "Relative in Ipoh",
+      "phone": "05-254 8890"
+    },
+    "isCoordinator": false,
+    "script": {
+      "status": "safe",
+      "delay": 5
+    },
+    "checklist": []
+  },
+  {
+    "id": "h27",
+    "name": "Keluarga Singh",
+    "address": "4, Jalan Bukit Harmoni, Taman Seri Harmoni, 40460 Shah Alam, Selangor",
+    "shortAddress": "4 Jalan Bukit Harmoni",
+    "street": "Jalan Bukit Harmoni",
+    "zone": "D",
+    "lat": 3.03355,
+    "lng": 101.53248,
+    "phone": "012-448 3321",
+    "members": [
+      {
+        "id": "m070",
+        "name": "Harpreet Singh",
+        "age": 50,
+        "relationship": "Father",
+        "phone": "",
+        "photo": "",
+        "needs": [],
+        "status": "pending",
+        "clothing": "",
+        "medical": {
+          "bloodType": "A+",
+          "allergies": "None known",
+          "medications": "None",
+          "conditions": "None"
+        }
+      },
+      {
+        "id": "m071",
+        "name": "Jaswinder Kaur",
+        "age": 48,
+        "relationship": "Mother",
+        "phone": "",
+        "photo": "",
+        "needs": [],
+        "status": "pending",
+        "clothing": "",
+        "medical": {
+          "bloodType": "B+",
+          "allergies": "None known",
+          "medications": "None",
+          "conditions": "None"
+        }
+      },
+      {
+        "id": "m072",
+        "name": "Arjan Singh",
+        "age": 15,
+        "relationship": "Son",
+        "phone": "",
+        "photo": "",
+        "needs": [],
+        "status": "pending",
+        "clothing": "",
+        "medical": {
+          "bloodType": "O+",
+          "allergies": "None known",
+          "medications": "None",
+          "conditions": "None"
+        }
+      }
+    ],
+    "pets": [],
+    "contacts": [
+      {
+        "name": "Tan Wei Ming (block coordinator)",
+        "phone": "016-221 9087"
+      }
+    ],
+    "outOfArea": {
+      "name": "Relative in Ipoh",
+      "phone": "05-254 8890"
+    },
+    "isCoordinator": false,
+    "script": {
+      "status": "safe",
+      "delay": 6
+    },
+    "checklist": []
+  },
+  {
+    "id": "h28",
+    "name": "Keluarga Fauzi",
+    "address": "6, Jalan Bukit Harmoni, Taman Seri Harmoni, 40460 Shah Alam, Selangor",
+    "shortAddress": "6 Jalan Bukit Harmoni",
+    "street": "Jalan Bukit Harmoni",
+    "zone": "D",
+    "lat": 3.03355,
+    "lng": 101.53372,
+    "phone": "017-559 0023",
+    "members": [
+      {
+        "id": "m073",
+        "name": "Fauzi bin Latif",
+        "age": 42,
+        "relationship": "Father",
+        "phone": "",
+        "photo": "",
+        "needs": [],
+        "status": "pending",
+        "clothing": "",
+        "medical": {
+          "bloodType": "AB+",
+          "allergies": "None known",
+          "medications": "None",
+          "conditions": "None"
+        }
+      },
+      {
+        "id": "m074",
+        "name": "Mira binti Hashim",
+        "age": 40,
+        "relationship": "Mother",
+        "phone": "",
+        "photo": "",
+        "needs": [],
+        "status": "pending",
+        "clothing": "",
+        "medical": {
+          "bloodType": "O-",
+          "allergies": "None known",
+          "medications": "None",
+          "conditions": "None"
+        }
+      },
+      {
+        "id": "m075",
+        "name": "Alya Fauzi",
+        "age": 10,
+        "relationship": "Daughter",
+        "phone": "",
+        "photo": "",
+        "needs": [
+          "child"
+        ],
+        "status": "pending",
+        "clothing": "",
+        "medical": {
+          "bloodType": "A-",
+          "allergies": "None known",
+          "medications": "None",
+          "conditions": "None"
+        }
+      }
+    ],
+    "pets": [],
+    "contacts": [
+      {
+        "name": "Tan Wei Ming (block coordinator)",
+        "phone": "016-221 9087"
+      }
+    ],
+    "outOfArea": {
+      "name": "Relative in Ipoh",
+      "phone": "05-254 8890"
+    },
+    "isCoordinator": false,
+    "script": {
+      "status": "safe",
+      "delay": 7
+    },
+    "checklist": []
+  },
+  {
+    "id": "h29",
+    "name": "Keluarga Chua",
+    "address": "13, Jalan Harmoni 1, Taman Seri Harmoni, 40460 Shah Alam, Selangor",
+    "shortAddress": "13 Jalan Harmoni 1",
+    "street": "Jalan Harmoni 1",
+    "zone": "A",
+    "lat": 3.02465,
+    "lng": 101.5393,
+    "phone": "016-778 2290",
+    "members": [
+      {
+        "id": "m076",
+        "name": "Chua Teck Huat",
+        "age": 66,
+        "relationship": "Husband",
+        "phone": "",
+        "photo": "",
+        "needs": [
+          "elderly"
+        ],
+        "status": "pending",
+        "clothing": "Grey polo shirt, black slacks, umbrella",
+        "medical": {
+          "bloodType": "B-",
+          "allergies": "None known",
+          "medications": "None",
+          "conditions": "None"
+        }
+      },
+      {
+        "id": "m077",
+        "name": "Tan Siew Mei",
+        "age": 63,
+        "relationship": "Wife",
+        "phone": "",
+        "photo": "",
+        "needs": [],
+        "status": "pending",
+        "clothing": "",
+        "medical": {
+          "bloodType": "A+",
+          "allergies": "None known",
+          "medications": "Insulin",
+          "conditions": "Type 2 diabetes"
+        }
+      }
+    ],
+    "pets": [],
+    "contacts": [
+      {
+        "name": "Tan Wei Ming (block coordinator)",
+        "phone": "016-221 9087"
+      }
+    ],
+    "outOfArea": {
+      "name": "Relative in Ipoh",
+      "phone": "05-254 8890"
+    },
+    "isCoordinator": false,
+    "script": {
+      "status": "missing",
+      "delay": 13,
+      "missingMember": 0,
+      "note": "My husband went out to move the car 40 minutes ago and has not come back."
+    },
+    "checklist": []
+  },
+  {
+    "id": "h30",
+    "name": "Keluarga Salleh",
+    "address": "15, Jalan Aman 3, Taman Seri Harmoni, 40460 Shah Alam, Selangor",
+    "shortAddress": "15 Jalan Aman 3",
+    "street": "Jalan Aman 3",
+    "zone": "B",
+    "lat": 3.02915,
+    "lng": 101.5393,
+    "phone": "019-115 6634",
+    "members": [
+      {
+        "id": "m078",
+        "name": "Salleh bin Jamil",
+        "age": 37,
+        "relationship": "Father",
+        "phone": "",
+        "photo": "",
+        "needs": [],
+        "status": "pending",
+        "clothing": "",
+        "medical": {
+          "bloodType": "B+",
+          "allergies": "None known",
+          "medications": "None",
+          "conditions": "None"
+        }
+      },
+      {
+        "id": "m079",
+        "name": "Wani binti Rahman",
+        "age": 35,
+        "relationship": "Mother",
+        "phone": "",
+        "photo": "",
+        "needs": [],
+        "status": "pending",
+        "clothing": "",
+        "medical": {
+          "bloodType": "O+",
+          "allergies": "None known",
+          "medications": "None",
+          "conditions": "None"
+        }
+      },
+      {
+        "id": "m080",
+        "name": "Iqbal Salleh",
+        "age": 9,
+        "relationship": "Son",
+        "phone": "",
+        "photo": "",
+        "needs": [
+          "child"
+        ],
+        "status": "pending",
+        "clothing": "",
+        "medical": {
+          "bloodType": "AB+",
+          "allergies": "None known",
+          "medications": "None",
+          "conditions": "None"
+        }
+      },
+      {
+        "id": "m081",
+        "name": "Imran Salleh",
+        "age": 6,
+        "relationship": "Son",
+        "phone": "",
+        "photo": "",
+        "needs": [
+          "child"
+        ],
+        "status": "pending",
+        "clothing": "",
+        "medical": {
+          "bloodType": "O-",
+          "allergies": "None known",
+          "medications": "None",
+          "conditions": "None"
+        }
+      }
+    ],
+    "pets": [],
+    "contacts": [
+      {
+        "name": "Tan Wei Ming (block coordinator)",
+        "phone": "016-221 9087"
+      }
+    ],
+    "outOfArea": {
+      "name": "Relative in Ipoh",
+      "phone": "05-254 8890"
+    },
+    "isCoordinator": false,
+    "script": {
+      "status": "safe",
+      "delay": 12
+    },
+    "checklist": []
+  }
+]

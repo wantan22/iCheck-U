@@ -1,0 +1,41 @@
+{
+  "household": [
+    { "name": "MyKad (IC)", "category": "documents", "priority": "first" },
+    { "name": "Passports", "category": "documents", "priority": "time" },
+    { "name": "Birth certificates", "category": "documents", "priority": "first" },
+    { "name": "Insurance / takaful policies", "category": "documents", "priority": "time" },
+    { "name": "Land title (geran) / tenancy agreement", "category": "documents", "priority": "time" },
+    { "name": "School records", "category": "documents", "priority": "leave" },
+    { "name": "Daily medications", "category": "medical", "priority": "first" },
+    { "name": "Spectacles / hearing aids", "category": "medical", "priority": "first" },
+    { "name": "Oxygen supplies", "category": "medical", "priority": "first" },
+    { "name": "Medical records / appointment cards", "category": "medical", "priority": "time" },
+    { "name": "Cash (small notes)", "category": "money", "priority": "first" },
+    { "name": "Bank cards", "category": "money", "priority": "first" },
+    { "name": "Jewellery / valuables", "category": "money", "priority": "time" },
+    { "name": "Phones", "category": "devices", "priority": "first" },
+    { "name": "Chargers & power banks", "category": "devices", "priority": "first" },
+    { "name": "External hard drive / laptop", "category": "devices", "priority": "time" },
+    { "name": "Torch & spare batteries", "category": "kit", "priority": "first" },
+    { "name": "First aid kit", "category": "kit", "priority": "first" },
+    { "name": "Drinking water (3 days)", "category": "kit", "priority": "first" },
+    { "name": "Dry food", "category": "kit", "priority": "time" },
+    { "name": "Battery radio", "category": "kit", "priority": "time" },
+    { "name": "Baby formula & bottles", "category": "family", "priority": "first" },
+    { "name": "Diapers", "category": "family", "priority": "first" },
+    { "name": "Pet food & carrier", "category": "family", "priority": "time" },
+    { "name": "Comfort item for children", "category": "family", "priority": "time" }
+  ],
+  "business": [
+    { "name": "Cash box", "category": "money", "priority": "first" },
+    { "name": "SSM certificate & business licence", "category": "documents", "priority": "time" },
+    { "name": "Insurance policy", "category": "documents", "priority": "time" },
+    { "name": "POS terminal / server", "category": "devices", "priority": "time" },
+    { "name": "Backup drive", "category": "devices", "priority": "first" },
+    { "name": "Spare keys", "category": "money", "priority": "first" },
+    { "name": "First aid kit", "category": "kit", "priority": "first" },
+    { "name": "Fire extinguisher", "category": "kit", "priority": "leave" },
+    { "name": "Gas / main power shut-off", "category": "kit", "priority": "first" },
+    { "name": "Staff contact list (printed)", "category": "documents", "priority": "first" }
+  ]
+}

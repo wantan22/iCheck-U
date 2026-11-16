@@ -1,0 +1,216 @@
+[
+  {
+    "id": "sp01",
+    "name": "Hospital Daerah Harmoni",
+    "type": "hospital",
+    "lat": 3.0368,
+    "lng": 101.5446,
+    "capacity": 400,
+    "occupancy": 310,
+    "status": "open",
+    "petFriendly": false,
+    "wheelchair": true,
+    "services": [
+      "medical",
+      "children",
+      "elderly"
+    ],
+    "phone": "03-5520 1000",
+    "notes": "Emergency department 24h. Oxygen and dialysis support.",
+    "updatedAt": null
+  },
+  {
+    "id": "sp02",
+    "name": "Pusat Perubatan Bukit Jati",
+    "type": "hospital",
+    "lat": 3.0208,
+    "lng": 101.5262,
+    "capacity": 150,
+    "occupancy": 90,
+    "status": "open",
+    "petFriendly": false,
+    "wheelchair": true,
+    "services": [
+      "medical",
+      "children"
+    ],
+    "phone": "03-5521 7788",
+    "notes": "Private hospital, across Sungai Harmoni.",
+    "updatedAt": null
+  },
+  {
+    "id": "sp03",
+    "name": "PPS Dewan Komuniti Seri Harmoni",
+    "type": "evacuation",
+    "lat": 3.034,
+    "lng": 101.5362,
+    "capacity": 300,
+    "occupancy": 120,
+    "status": "open",
+    "petFriendly": true,
+    "wheelchair": true,
+    "services": [
+      "shelter",
+      "food",
+      "children",
+      "elderly",
+      "pets"
+    ],
+    "phone": "03-5512 0099",
+    "notes": "Relief centre (PPS). Pet area at the covered car park.",
+    "updatedAt": null
+  },
+  {
+    "id": "sp04",
+    "name": "PPS Sekolah Kebangsaan Seri Harmoni",
+    "type": "evacuation",
+    "lat": 3.035,
+    "lng": 101.5296,
+    "capacity": 500,
+    "occupancy": 210,
+    "status": "open",
+    "petFriendly": false,
+    "wheelchair": false,
+    "services": [
+      "shelter",
+      "food",
+      "children"
+    ],
+    "phone": "03-5512 4410",
+    "notes": "Hall and classrooms on level 1–2. Stairs only.",
+    "updatedAt": null
+  },
+  {
+    "id": "sp05",
+    "name": "PPS Masjid Al-Hidayah",
+    "type": "evacuation",
+    "lat": 3.0302,
+    "lng": 101.5458,
+    "capacity": 200,
+    "occupancy": 200,
+    "status": "full",
+    "petFriendly": false,
+    "wheelchair": true,
+    "services": [
+      "shelter",
+      "food",
+      "elderly"
+    ],
+    "phone": "03-5512 3321",
+    "notes": "Full — redirecting to Dewan Komuniti.",
+    "updatedAt": null
+  },
+  {
+    "id": "sp06",
+    "name": "Balai Bomba Seri Harmoni",
+    "type": "fire",
+    "lat": 3.0375,
+    "lng": 101.5392,
+    "capacity": 0,
+    "occupancy": 0,
+    "status": "open",
+    "petFriendly": true,
+    "wheelchair": true,
+    "services": [
+      "medical"
+    ],
+    "phone": "994 (demo)",
+    "notes": "Fire and rescue station. Boats stationed here.",
+    "updatedAt": null
+  },
+  {
+    "id": "sp07",
+    "name": "Balai Polis Seri Harmoni",
+    "type": "police",
+    "lat": 3.0322,
+    "lng": 101.5268,
+    "capacity": 0,
+    "occupancy": 0,
+    "status": "open",
+    "petFriendly": false,
+    "wheelchair": true,
+    "services": [],
+    "phone": "999 (demo)",
+    "notes": "Report missing persons here as well.",
+    "updatedAt": null
+  },
+  {
+    "id": "sp08",
+    "name": "Farmasi Harmoni 24 Jam",
+    "type": "pharmacy",
+    "lat": 3.0318,
+    "lng": 101.5425,
+    "capacity": 0,
+    "occupancy": 0,
+    "status": "open",
+    "petFriendly": false,
+    "wheelchair": true,
+    "services": [
+      "medical"
+    ],
+    "phone": "03-5513 2424",
+    "notes": "Open 24h on generator power.",
+    "updatedAt": null
+  },
+  {
+    "id": "sp09",
+    "name": "Titik Berkumpul Bukit Harmoni",
+    "type": "assembly",
+    "lat": 3.0356,
+    "lng": 101.5336,
+    "capacity": 600,
+    "occupancy": 80,
+    "status": "open",
+    "petFriendly": true,
+    "wheelchair": false,
+    "services": [
+      "shelter",
+      "pets"
+    ],
+    "phone": "",
+    "notes": "High ground assembly point. Lorry pickup every 30 min.",
+    "pickup": true,
+    "updatedAt": null
+  },
+  {
+    "id": "sp10",
+    "name": "Pusat Agihan Bantuan Surau An-Nur",
+    "type": "relief",
+    "lat": 3.0328,
+    "lng": 101.5412,
+    "capacity": 0,
+    "occupancy": 0,
+    "status": "open",
+    "petFriendly": true,
+    "wheelchair": true,
+    "services": [
+      "food",
+      "children",
+      "elderly"
+    ],
+    "phone": "",
+    "notes": "Food packs, water, diapers and formula.",
+    "pickup": true,
+    "updatedAt": null
+  },
+  {
+    "id": "sp11",
+    "name": "Klinik Kesihatan Harmoni",
+    "type": "clinic",
+    "lat": 3.0312,
+    "lng": 101.5262,
+    "capacity": 0,
+    "occupancy": 0,
+    "status": "open",
+    "petFriendly": false,
+    "wheelchair": true,
+    "services": [
+      "medical",
+      "children",
+      "elderly"
+    ],
+    "phone": "03-5511 0303",
+    "notes": "Government clinic, extended hours during the event.",
+    "updatedAt": null
+  }
+]
